@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.Todo__cta {
+  width: 100%;
+  position: relative;
+}
+
+.Todo__add-btn {
+  position: absolute;
+  border: 2px solid rgb(145, 74, 145);
+  outline: none;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-73%);
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: inherit;
+  color: inherit;
+}
+
+.Todo__input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 55px;
+  border: 2px solid #cec4c4;
+  border-radius: 5px;
+}
+
+.Todo__input:focus {
+  outline: none;
+}
+
+.Todo__wrapper {
+  width: 100%;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(145, 74, 145);
+  padding: 15px 20px;
+  color: #f3eded;
+}
+
+.Todo__text {
+  display: flex;
+  align-items: center;
+}
+
+.Todo__text > input {
+  margin-right: 10px;
+}
+
+.Todo__text > span {
+  margin-right: 15px;
+}
+
+.Todo__wrapper:not(:last-child) {
+  margin-bottom: 20px;
+}
